@@ -1,6 +1,25 @@
 # German-Traffic-Signs-Detector
 
+These scripts implement three different models to classify images of the data set: German-Traffic-Signs-Detector.
+
+Model1: Logistic regression in scikit-learn
+Model2: Logistic regression in Tensorflow
+Model3: LeNet5 in Tensorflow
+
+File description:
+
+- app.py: main file to execute the different commands
+- download.py: download data
+- imshow_labels.py: implement function to show images with predicted label
+- model1.py: implement functions to train and test model1
+- model2.py: implement functions to train and test model2
+- model3.py: implement functions to train and test model3
+
+
 Example of execution (assuming we are on the same folder as this README)
+To execute download command:
+
+	>> python app.py download
 
 To execute models inference:
 
