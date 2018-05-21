@@ -1,0 +1,10 @@
+click
+urllib
+zipfile
+scipy
+matplotlib
+numpy
+os
+tensorflow
+sklearn
+cv2
