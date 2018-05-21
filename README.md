@@ -15,6 +15,7 @@ File description:
 - model2.py: implement functions to train and test model2
 - model3.py: implement functions to train and test model3
 
+We expect that the images are in folders depending on the class to which they belong.
 
 Example of execution (assuming we are on the same folder as this README)
 
