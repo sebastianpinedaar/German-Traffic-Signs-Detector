@@ -25,9 +25,9 @@ from imshow_labels import imshow_labels
 
 @click.command()
 @click.argument('command')
-@click.option('--m', default="model1", help='Model to execute. POssible models are: logistic regression using sk-learn (model1), \
+@click.option('-m', default="model1", help='Model to execute. POssible models are: logistic regression using sk-learn (model1), \
                                                           logistic regression in tensorflow (model2) and lenet5 in tensor flow (model3')
-@click.option('--d', help="location of data to use")
+@click.option('-d', help="location of data to use")
 
 def main(command, m, d):
     
