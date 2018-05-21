@@ -17,6 +17,7 @@ File description:
 
 
 Example of execution (assuming we are on the same folder as this README)
+
 To execute download command:
 
 	>> python app.py download
